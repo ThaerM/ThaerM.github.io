@@ -1,7 +1,10 @@
 # Thaer Mosa — Portfolio Website
 
-A modern and professional Flutter portfolio website showcasing more than 10 years of experience in
-mobile development, backend systems, and game development.
+A fast, accessible portfolio website presenting 11+ years of mobile engineering, architecture,
+delivery, leadership, backend, and game-development experience.
+
+The site uses semantic HTML, responsive CSS, and a small progressive-enhancement script. The
+ATS-friendly résumé is generated from `tools/build_resume.py` and published under `cv/`.
 
 ---
 
