@@ -75,6 +75,13 @@ story += [
 story += heading("Core Expertise")
 skills = [[Paragraph("MOBILE", role), Paragraph("ENGINEERING LEADERSHIP", role), Paragraph("BACKEND & DELIVERY", role)], [Paragraph("Flutter · Dart · Xamarin · .NET MAUI<br/>Native Android · Java/Kotlin<br/>Native iOS · Swift", body), Paragraph("Architecture standards · Planning<br/>Code review · Mentoring · TDD<br/>Technical documentation", body), Paragraph("ASP.NET Core · REST APIs · Auth<br/>SQL Server · PostgreSQL · Firebase · Azure<br/>CI/CD · TestFlight · Crashlytics · Dynatrace", body)]]
 story += [Table(skills, colWidths=[doc.width/3]*3, style=TableStyle([("BACKGROUND",(0,0),(-1,0),PALE),("BOX",(0,0),(-1,-1),.5,LINE),("INNERGRID",(0,0),(-1,-1),.5,LINE),("VALIGN",(0,0),(-1,-1),"TOP"),("TOPPADDING",(0,0),(-1,-1),7),("BOTTOMPADDING",(0,0),(-1,-1),7)]))]
+story += heading("Selected Certifications")
+certifications = [
+    [Paragraph("Google AI Professional Certificate", project), Paragraph("Google / Coursera | 7-course professional certificate | 2026", small)],
+    [Paragraph("Google AI Essentials", project), Paragraph("Google / Coursera | 5-course specialization | 2026", small)],
+    [Paragraph("Complete Flutter Development Bootcamp with Dart", project), Paragraph("Udemy / Dr. Angela Yu | 29 hours | 2024", small)],
+]
+story += [Table(certifications, colWidths=[75*mm, doc.width-75*mm], style=TableStyle([("VALIGN",(0,0),(-1,-1),"TOP"),("LINEBELOW",(0,0),(-1,-2),.35,LINE),("LEFTPADDING",(0,0),(-1,-1),0),("RIGHTPADDING",(0,0),(-1,-1),4),("TOPPADDING",(0,0),(-1,-1),4),("BOTTOMPADDING",(0,0),(-1,-1),4)]))]
 story += heading("Selected Product Portfolio")
 projects = [
     ("Capital Bank Mobile & Blink", "Mobile banking products across iOS and Android; current leadership scope includes planning, security, review, documentation, and delivery readiness."),
